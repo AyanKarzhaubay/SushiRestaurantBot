@@ -1,0 +1,2 @@
+# SushiRestaurantBot
+Python, SQLite
