@@ -9,6 +9,7 @@ CREATE TABLE IF NOT EXISTS delivery_orders (
     client_id INTEGER NOT NULL,
     delivery_address TEXT NOT NULL,
     order_date TEXT DEFAULT (datetime('now')),
+    total_price REAL NOT NULL,
     FOREIGN KEY (client_id) REFERENCES clients(id)
 )
 ''')
